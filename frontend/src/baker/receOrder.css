@@ -1,0 +1,71 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body{
+    background-image: url('/src/img/Baker/Bproduct.png');
+}
+.rOrderHead{
+    margin-left: 15rem;
+    padding-top: 1rem;
+    margin-bottom: 1rem;
+    color: #012443;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+.recOrdList{
+    display: flex;
+    flex-direction: column;
+}
+.recOrdName{
+    color: #012443;
+    font-size: 1.1rem;
+    margin-bottom: 0.2rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}  
+.recOrdVal{
+    color: #FDD2BF;
+    font-size: 1.1rem;
+    margin-bottom: 0.2rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.recOrdDone{
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color:"#FDD2BF";
+    background-color: #B61919;
+    color: #FDD2BF;
+    margin-top: 1rem;   
+    padding: 0.5rem 1.7rem;
+    border-radius: 5px;
+    border: none;
+}
+.recOrdDone:hover{
+    background-color: #FDD2BF;
+    color: #B61919;
+}
+.recOrdBox{
+    margin-bottom: 2rem;
+    margin-left: 15rem;
+    width: 40rem;
+    height: fit-content;
+    padding: 1rem;
+    background-color: #FF6B6B;
+    border-radius: 9px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+.rowHeadingBaker{
+    display: flex;
+    justify-content: space-around;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+.rowItemBaker{
+    display: flex;
+    color: #FDD2BF;
+    justify-content: space-around;
+}
+.lineBetweenOrder{
+    color: white !important;
+    margin: 0.7rem 2rem;
+}

@@ -1,0 +1,39 @@
+@media screen and (max-width: 767px){
+    .sideNav{   
+        display: none;
+    }
+}
+@media screen and (min-width: 768px) {
+    .sideNav{
+        background: #B61919;
+        width: 210px;
+        position: fixed;
+        padding: 0 30px;
+        height: 100%;
+        left: -100%;
+        transition: all 0.5s;
+    }
+    .sideNav.active{
+        left: 0;
+    }
+    .baker-list{
+        padding: 0;
+    }
+    .baker-list-item{
+        list-style-type: none;
+        margin: 10px 0;;
+    }
+    .baker-list-link{
+        color: #FDD2BF;
+        text-decoration: none;
+        font-size: 1rem;
+        display: block;
+        padding: 10px 15px;
+        border-radius: 6px;
+    }
+    .baker-list-link:hover,
+    .baker-list-link.active{
+        background: #FDD2BF;
+        color: #B61919;
+    }
+}

@@ -1,0 +1,444 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+@media screen and (max-width: 480px) {
+    .sign_main{
+        .sign_right{
+            margin-top: 10rem;
+            .switchSign{
+                color: #012443;
+                float: right;
+                padding-bottom: 2rem;
+                padding-right: 1rem;
+                font-size: 1.2rem;         
+            }
+            .headdTag{
+                margin-left: 30%;
+                font-weight: 500;
+                color: #012443;
+                font-size: 2rem;
+                font-family: Georgia, 'Times New Roman', Times, serif;
+            }
+            .headdTagUp{
+                margin-left: 31%;
+                font-weight: 500;   
+                color: #012443;
+                margin-top: 6rem;
+                font-size: 2rem;
+                font-family: Georgia, 'Times New Roman', Times, serif;
+            }
+            .inRow{
+                width: 100%;
+                padding-left: 20%;
+                .inCol{
+                    display: flex;
+                    flex-direction: column;
+                    padding-left: 2rem;
+                    margin-top: 2rem;
+                    .inLabel{
+                        color: #B61919;
+                        margin-bottom: 0.1rem;
+                        font-family: Georgia, 'Times New Roman', Times, serif;
+                    }
+                    .inInp{
+                        width: 85%;
+                        padding: 1rem;
+                        border-radius: 15px;
+                        border: none;
+                        height: 2.5rem;
+                        box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;    
+                    }
+                }    
+            }
+            .upRow{
+                display: flex;
+                flex-direction: row;
+                padding-left: 2rem;
+                .upCol{
+                    margin-top: 1rem;
+                    display: flex;
+                    flex-direction: column;
+                    gap: 2px;
+                    .checkSignUp{
+                        margin-right: 1rem;
+                    }
+                    .upInpR{
+                        width: 60%;
+                        padding: 1rem;
+                        border-radius: 15px;
+                        border: none;
+                        height: 2.5rem;
+                        box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;      
+                    }
+                    .upInp{
+                        width: 160%;
+                        padding: 1rem;
+                        border-radius: 15px;
+                        border: none;
+                        height: 2.5rem;
+                        box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;    
+                    }
+                }
+            }
+            .fpswd{
+                margin-top: 1   rem;
+                margin-left:51%;
+                font-family: Georgia, 'Times New Roman', Times, serif;
+                color: #012443;
+            }
+            .sBtn{
+                text-align: center;
+                font-family: Georgia, 'Times New Roman', Times, serif;
+                color:"#FDD2BF";
+                background-color: #B61919;
+                color: #FDD2BF;
+                margin-top: 2rem;
+                padding: 0.5rem 1.7rem;
+                border-radius: 5px;
+                border: none;
+                margin-left: 40%;
+            }
+            .sBtn:hover{
+                cursor: pointer;
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 481px) and (max-width:767px) {
+    .sign_main{
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        
+        .sign_right{
+            width: 100%;
+            position: absolute;
+            transform: translate(-15%, 55%);
+            .switchSign{
+                color: #012443;
+                float: right;
+                padding-top: 2rem;
+                padding-right: 1rem;
+                font-size: 1.2rem;         
+            }
+            .headdTag{
+                margin-left: 31%;
+                font-weight: 500;
+                color: #012443;
+                padding-top: 7rem;
+                font-size: 2rem;
+                font-family: Georgia, 'Times New Roman', Times, serif;
+            }
+            .headdTagUp{
+                margin-left: 31%;
+                font-weight: 500;   
+                color: #012443;
+                margin-top: 6rem;
+                font-size: 2rem;
+                font-family: Georgia, 'Times New Roman', Times, serif;
+            }
+            .inCol{
+                display: flex;
+                flex-direction: column;
+                padding-left: 15rem ;
+                margin-top: 2rem;
+                .inLabel{
+                    color: #B61919;
+                    margin-bottom: 0.1rem;
+                    font-family: Georgia, 'Times New Roman', Times, serif;
+                }
+                .inInp{
+                    width: 55%;
+                    padding: 1rem;
+                    border-radius: 15px;
+                    border: none;
+                    height: 2.5rem;
+                    box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;    
+                }
+            }
+            .upRow{
+                display: flex;
+                flex-direction: row;
+                padding-left: 15rem ;
+                .upCol{
+                    margin-top: 1rem;
+                    display: flex;
+                    flex-direction: column;
+                    gap: 2px;
+                    .checkSignUp{
+                        margin-right: 1rem;
+                    }
+                    .upInpR{
+                        width: 60%;
+                        padding: 1rem;
+                        border-radius: 15px;
+                        border: none;
+                        height: 2.5rem;
+                        box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;      
+                    }
+                    .upInp{
+                        width: 160%;
+                        padding: 1rem;
+                        border-radius: 15px;
+                        border: none;
+                        height: 2.5rem;
+                        box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;    
+                    }
+                }
+            }
+            .fpswd{
+                margin-top: 0.4rem;
+                margin-left:51%;
+                font-family: Georgia, 'Times New Roman', Times, serif;
+                color: #012443;
+            }
+            .sBtn{
+                text-align: center;
+                font-family: Georgia, 'Times New Roman', Times, serif;
+                color:"#FDD2BF";
+                background-color: #B61919;
+                color: #FDD2BF;
+                margin-top: 2rem;
+                padding: 0.5rem 1.7rem;
+                border-radius: 5px;
+                border: none;
+                margin-left: 32%;
+            }
+            .sBtn:hover{
+                cursor: pointer;
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width:1023px){
+    .sign_main{
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        
+        .sign_right{
+            width: 100%;
+            position: absolute;
+            transform: translate(-5%, 35%);
+            .switchSign{
+                color: #012443;
+                float: right;
+                padding-top: 2rem;
+                padding-right: 5rem;
+                font-size: 1.2rem;         
+            }
+            .headdTag{
+                margin-left: 31%;
+                font-weight: 500;
+                color: #012443;
+                padding-top: 7rem;
+                font-size: 2rem;
+                font-family: Georgia, 'Times New Roman', Times, serif;
+            }
+            .headdTagUp{
+                margin-left: 31%;
+                font-weight: 500;   
+                color: #012443;
+                margin-top: 6rem;
+                font-size: 2rem;
+                font-family: Georgia, 'Times New Roman', Times, serif;
+            }
+            .inCol{
+                display: flex;
+                flex-direction: column;
+                padding-left: 15rem ;
+                margin-top: 2rem;
+                .inLabel{
+                    color: #B61919;
+                    margin-bottom: 0.1rem;
+                    font-family: Georgia, 'Times New Roman', Times, serif;
+                }
+                .inInp{
+                    width: 55%;
+                    padding: 1rem;
+                    border-radius: 15px;
+                    border: none;
+                    height: 2.5rem;
+                    box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;    
+                }
+            }
+            .upRow{
+                display: flex;
+                flex-direction: row;
+                padding-left: 15rem ;
+                .upCol{
+                    margin-top: 1rem;
+                    display: flex;
+                    flex-direction: column;
+                    gap: 2px;
+                    .checkSignUp{
+                        margin-right: 1rem;
+                    }
+                    .upInpR{
+                        width: 60%;
+                        padding: 1rem;
+                        border-radius: 15px;
+                        border: none;
+                        height: 2.5rem;
+                        box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;      
+                    }
+                    .upInp{
+                        width: 160%;
+                        padding: 1rem;
+                        border-radius: 15px;
+                        border: none;
+                        height: 2.5rem;
+                        box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;    
+                    }
+                }
+            }
+            .fpswd{
+                margin-top: 0.4rem;
+                margin-left:51%;
+                font-family: Georgia, 'Times New Roman', Times, serif;
+                color: #012443;
+            }
+            .sBtn{
+                text-align: center;
+                font-family: Georgia, 'Times New Roman', Times, serif;
+                color:"#FDD2BF";
+                background-color: #B61919;
+                color: #FDD2BF;
+                margin-top: 2rem;
+                padding: 0.5rem 1.7rem;
+                border-radius: 5px;
+                border: none;
+                margin-left: 32%;
+            }
+            .sBtn:hover{
+                cursor: pointer;
+            }
+        }
+    }
+    
+}
+
+@media screen and (min-width:1024px) {
+    .sign_main{
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        
+        .sign_left{
+            background-image: url('../img/signIn_Up/leftSign.jpg');
+            width: fit-content;
+            height: 100vh;
+            width: 40%;
+            background-size: cover;
+        }
+        .sign_right{
+            width: 60%;
+            .switchSign{
+                color: #012443;
+                float: right;
+                padding-top: 2rem;
+                padding-right: 5rem;
+                font-size: 1.2rem;         
+            }
+            .headdTag{
+                margin-left: 31%;
+                font-weight: 500;
+                color: #012443;
+                padding-top: 7rem;
+                font-size: 2rem;
+                font-family: Georgia, 'Times New Roman', Times, serif;
+            }
+            .headdTagUp{
+                margin-left: 31%;
+                font-weight: 500;   
+                color: #012443;
+                margin-top: 6rem;
+                font-size: 2rem;
+                font-family: Georgia, 'Times New Roman', Times, serif;
+            }
+            .inCol{
+                display: flex;
+                flex-direction: column;
+                padding-left: 15rem ;
+                margin-top: 2rem;
+                .inLabel{
+                    color: #B61919;
+                    margin-bottom: 0.1rem;
+                    font-family: Georgia, 'Times New Roman', Times, serif;
+                }
+                .inInp{
+                    width: 55%;
+                    padding: 1rem;
+                    border-radius: 15px;
+                    border: none;
+                    height: 2.5rem;
+                    box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;    
+                }
+            }
+            .upRow{
+                display: flex;
+                flex-direction: row;
+                padding-left: 15rem ;
+                .upCol{
+                    margin-top: 1rem;
+                    display: flex;
+                    flex-direction: column;
+                    gap: 2px;
+                    .checkSignUp{
+                        margin-right: 1rem;
+                    }
+                    .upInpR{
+                        width: 60%;
+                        padding: 1rem;
+                        border-radius: 15px;
+                        border: none;
+                        height: 2.5rem;
+                        box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;      
+                    }
+                    .upInp{
+                        width: 160%;
+                        padding: 1rem;
+                        border-radius: 15px;
+                        border: none;
+                        height: 2.5rem;
+                        box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;    
+                    }
+                }
+            }
+            .fpswd{
+                margin-top: 0.4rem;
+                margin-left:51%;
+                font-family: Georgia, 'Times New Roman', Times, serif;
+                color: #012443;
+            }
+            .sBtn{
+                text-align: center;
+                font-family: Georgia, 'Times New Roman', Times, serif;
+                color:"#FDD2BF";
+                background-color: #B61919;
+                color: #FDD2BF;
+                margin-top: 2rem;
+                padding: 0.5rem 1.7rem;
+                border-radius: 5px;
+                border: none;
+                margin-left: 32%;
+            }
+            .sBtn:hover{
+                cursor: pointer;
+            }
+        }
+    }
+        
+}
+
+
+/* .inRow{
+    display: inline-flex;
+    flex-wrap: wrap;
+    align-content:space-between;
+} */

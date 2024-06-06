@@ -1,0 +1,87 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body{
+    background-image: url('../img/Baker/Bproduct.png');
+}
+/* .bprofile{
+    margin-left: 17rem;
+} */
+.bphoto{
+    padding-top: 3rem;
+    position: relative;
+    top:2rem;
+    width: 15rem;
+    height: 15rem;
+    background-color: #FF6B6B;
+    border-radius: 15rem;
+}
+.proDet{
+    color: #012443;
+    font-size: 2rem;
+    margin-bottom: 0.1rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.proRow{
+    display: flex;
+    justify-content:space-around;
+}
+.proCol{
+    padding: 7px;
+}
+.proIn{
+    padding: 1rem;
+    border: none;
+    border-radius: 15px;
+    height: 2.8rem;
+    width: 120%;
+    color: #012443;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;    
+    resize: none;
+}
+.proLab{
+    color: #B61919;
+    margin-bottom: 0.1rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.logoutbtn{
+    position: relative;
+    left: 55rem;
+    bottom: 13rem;
+    border-radius: 8px;
+    background-color: #B61919;
+    color: #FDD2BF;
+    border: none;
+    text-transform: uppercase;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    font-size: 1rem;
+    text-align: center;
+    text-decoration: none;
+    width: 6rem;
+    padding: 7px 1px;
+    height: 2.5rem;
+}
+.proBtnRow{
+    display: flex;
+    justify-content: space-around;
+}
+.proSaveBtn{
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color:"#FDD2BF";
+    background-color: #B61919;
+    color: #FDD2BF;
+    margin-top: 2rem;   
+    padding: 0.5rem 1.7rem;
+    border-radius: 5px;
+    border: none;
+    margin-bottom: 2rem;
+}
+.proSaveBtn:hover{
+    background-color: #FDD2BF;
+    color: #B61919;
+}

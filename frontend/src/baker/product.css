@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url('/src/img/Baker/Bproduct.png');
+    font-family:"Georgia, 'Times New Roman', Times, serif;"
+}
+.bakerProductList{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+.categorymain{
+
+}
+.bakerAddProduct{
+    cursor: pointer;
+    margin-left: 15rem;
+    margin-top: 2rem;
+    height: 12rem;
+    width: 12rem;
+    border-radius: 5px;
+}
+.bakerAddProductRest{
+    cursor: pointer;
+    margin-left: 4rem;
+    margin-top: 2rem;
+    height: 12rem;
+    width: 12rem;
+    border-radius: 5px;
+}
+.addCategory h4{
+    margin-left: 16.2rem;
+    margin-top: 0.4rem;
+}
+.disHandle{
+    display: none;
+}

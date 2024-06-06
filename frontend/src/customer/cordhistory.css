@@ -1,0 +1,24 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.custOrderHstory{
+    margin-left: 15rem;
+    padding-top: 2rem;
+}
+.custOrderHistoryMain{
+    font-size: 500;
+    font-size: 1.7rem;
+}
+.custOrderHistoryMainBox{
+    margin: auto;
+    margin-bottom: 1rem;
+    border-radius: 1rem;
+    width: 30rem;
+    height: 10rem;
+    background-color:#012443;
+}
+.cOrderDateDetail{
+    color: #012443;
+    padding: 0.2rem 0.5rem;
+}

@@ -1,0 +1,298 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+@media screen and (max-width: 480px) {
+    body{
+        background-image: url('/src/img/Baker/Bproduct.png');
+    }
+    .bprofile{
+        .logOutRow{
+            visibility: hidden;
+        }
+    }
+    .proDet{
+        color: #012443;
+        font-size: 1.5rem;
+        margin-top: 2rem;
+        margin-left: 2rem;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+    .proRow{
+        display: flex;
+        flex-direction: column;
+        margin: 1.5rem ;
+        justify-content:space-evenly;
+        .proCol{
+            margin-right:1rem 2rem;
+            .proLab{
+                color: #B61919;
+                margin-bottom: 0.1rem;
+                font-family: Georgia, 'Times New Roman', Times, serif;
+            }
+            .proIn{
+                padding: 1rem;
+                border: none;
+                border-radius: 15px;
+                height: 2.8rem;
+                width: 100%;
+                color: #012443;
+                box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;    
+                resize: none;
+            }
+        }
+    }
+    .proBtnRow{
+        display: flex;
+        justify-content: space-around;
+        .catSaveBtn{
+            text-align: center;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            color:"#FDD2BF";
+            background-color: #B61919;
+            color: #FDD2BF;
+            margin-top: 2rem;   
+            padding: 0.5rem 1.7rem;
+            border-radius: 5px;
+            border: none;
+            margin-bottom: 2rem;
+        }
+        .catSaveBtn:hover{
+            background-color: #FDD2BF;
+            color: #B61919;
+        }    
+    }
+}
+
+@media screen and (min-width: 481px) and (max-width:767px){
+    body{
+        background-image: url('/src/img/Baker/Bproduct.png');
+    }
+    .bprofile{
+        .logOutRow{
+            visibility: hidden;
+        }
+    }
+    .proDet{
+        color: #012443;
+        font-size: 1.7rem;
+        margin-top: 5rem;
+        margin-bottom: 0.5rem;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+    .proRow{
+        display: flex;
+        flex-direction: column;
+        margin-right: 1rem;
+        justify-content:space-evenly;
+        .proCol{
+            margin-right:1rem;
+            .proLab{
+                color: #B61919;
+                margin-bottom: 0.1rem;
+                font-family: Georgia, 'Times New Roman', Times, serif;
+            }
+            .proIn{
+                padding: 1rem;
+                border: none;
+                border-radius: 15px;
+                height: 2.8rem;
+                width: 100%;
+                color: #012443;
+                box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;    
+                resize: none;
+            }
+        }
+    }
+    .proBtnRow{
+        display: flex;
+        justify-content: space-around;
+        .catSaveBtn{
+            text-align: center;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            color:"#FDD2BF";
+            background-color: #B61919;
+            color: #FDD2BF;
+            margin-top: 2rem;   
+            padding: 0.5rem 1.7rem;
+            border-radius: 5px;
+            border: none;
+            margin-bottom: 2rem;
+        }
+        .catSaveBtn:hover{
+            background-color: #FDD2BF;
+            color: #B61919;
+        }    
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width:1023px){
+    body{
+        background-image: url('/src/img/Baker/Bproduct.png');
+    }
+    .bprofile{
+        margin-left: 17rem;
+        .logOutRow{
+            display: flex;
+            justify-content: flex-end;
+            margin-right: 3rem;
+            .logOutBtn{
+                text-align: center;
+                text-decoration: none;
+                width: 6rem;
+                padding: 7px 1px;
+                height: 2.5rem;
+                margin-top: 3rem;
+                margin-bottom: 1rem;
+                border-radius: 8px;
+                background-color: #B61919;
+                color: #FDD2BF;
+                border: none;
+                text-transform: uppercase;
+                box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+                font-size: 1rem;
+            }
+        }
+    }
+    .proDet{
+        color: #012443;
+        font-size: 2rem;
+        margin-bottom: 0.1rem;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+    .proRow{
+        display: flex;
+        justify-content:space-evenly;
+        .proCol{
+            margin-right:1rem;
+            .proLab{
+                color: #B61919;
+                margin-bottom: 0.1rem;
+                font-family: Georgia, 'Times New Roman', Times, serif;
+            }
+            .proIn{
+                padding: 1rem;
+                border: none;
+                border-radius: 15px;
+                height: 2.8rem;
+                width: 120%;
+                color: #012443;
+                box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;    
+                resize: none;
+            }
+        }
+    }
+    .proBtnRow{
+        display: flex;
+        justify-content: space-around;
+        .catSaveBtn{
+            text-align: center;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            color:"#FDD2BF";
+            background-color: #B61919;
+            color: #FDD2BF;
+            margin-top: 2rem;   
+            padding: 0.5rem 1.7rem;
+            border-radius: 5px;
+            border: none;
+            margin-bottom: 2rem;
+        }
+        .catSaveBtn:hover{
+            background-color: #FDD2BF;
+            color: #B61919;
+        }    
+    }
+}
+
+@media screen and (min-width:1024px){
+    body{
+        background-image: url('/src/img/Baker/Bproduct.png');
+    }
+    .bprofile{
+        margin-left: 17rem;
+        .logOutRow{
+            display: flex;
+            justify-content: flex-end;
+            margin-right: 3rem;
+            .logOutBtn{
+                text-align: center;
+                text-decoration: none;
+                width: 6rem;
+                padding: 7px 1px;
+                height: 2.5rem;
+                margin-top: 2rem;
+                margin-bottom: 1rem;
+                border-radius: 8px;
+                background-color: #B61919;
+                color: #FDD2BF;
+                border: none;
+                text-transform: uppercase;
+                box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+                font-size: 1rem;
+            }
+        }
+    }
+    .proDet{
+        color: #012443;
+        font-size: 2rem;
+        margin-bottom: 0.1rem;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+    
+    .proRow{
+        display: flex;
+        justify-content:space-around;
+        .proCol{
+            padding: 7px;
+            .proLab{
+                color: #B61919;
+                margin-bottom: 0.1rem;
+                font-family: Georgia, 'Times New Roman', Times, serif;
+            }
+            .proIn{
+                padding: 1rem;
+                border: none;
+                border-radius: 15px;
+                height: 2.8rem;
+                width: 120%;
+                color: #012443;
+                box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;    
+                resize: none;
+            }
+        }
+    }
+    
+    .proBtnRow{
+        display: flex;
+        justify-content: space-around;
+        .catSaveBtn{
+            text-align: center;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            color:"#FDD2BF";
+            background-color: #B61919;
+            color: #FDD2BF;
+            margin-top: 2rem;   
+            padding: 0.5rem 1.7rem;
+            border-radius: 5px;
+            border: none;
+            margin-bottom: 2rem;
+        }
+        .catSaveBtn:hover{
+            background-color: #FDD2BF;
+            color: #B61919;
+        }    
+    }
+}
+
+
+/* .bphoto{
+    padding-top: 3rem;
+    position: relative;
+    top:2rem;
+    width: 15rem;
+    height: 15rem;
+    background-color: #FF6B6B;
+    border-radius: 15rem;
+} */
